@@ -5,6 +5,8 @@
 .bg {
     background-image: url(./img/pexels-ryan-holloway-4.jpg);
     background-size: cover;
+}
 
-
+body::-webkit-scrollbar{
+    display:none;
 }
