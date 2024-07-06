@@ -12,7 +12,7 @@ function Home() {
   const firstFive = cardList.slice(3,7);       
 
   return (
-    <div className="whole">
+    <div class="whole">
       
       <Navbar />
       <Hero

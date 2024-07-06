@@ -11,20 +11,8 @@
 # production
 /build
 
-/src/Components/Hero
-/src/Components/pages/AllVlogs.js
-/src/Components/pages/crousel.css
-/src/Components/pages/crousel.jsx
-/src/Components/pages/Plans.js
-/src/Components/pages/Vlog.js
-/src/Components/pages/NewVlog.js
-/src/Components/pages/Edit.js
-/src/Components/TourCard
-/src/routes/tour.css
-/src/routes/tour.jsx
-/src/routes/login.jsx
 
-/src/App.test.js
+
 
 # misc
 .DS_Store

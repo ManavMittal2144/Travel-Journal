@@ -1,0 +1,44 @@
+.figure {
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    transition: 200ms;
+    box-shadow: 3px 8px 5px gray;
+    border-radius: 13px;
+}
+.name{
+    font-size: medium;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.figure img {
+    height: 200px;
+    width: 95%;
+    padding: 8px;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 14px;
+}
+
+button:hover {
+    background-color: rgb(126, 126, 214);
+    transition: 500ms;
+}
+
+.figure:hover {
+    transform: scale(1.03);
+}
+
+.info {
+    margin-bottom: 9px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    white-space: pre-wrap;
+}
