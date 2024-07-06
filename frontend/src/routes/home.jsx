@@ -20,19 +20,11 @@ function Home() {
         heroImg="https://images.unsplash.com/photo-1472213984618-c79aaec7fef0?q=80&w=1455&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         title="Your Journey Your Story"
         text="Choose Your Favourite Destination"
-        buttonText="Travel Plan"
         url="/"
-        btnClass="show"
       />
-      <h1 className="heading">Our Features Tours</h1>
+      <h1 className="text-center font-semibold text-4xl mt-7">Our Features Tours</h1>
 
-      <div
-        style={{
-          display: "flex",
-          flexWrap:'wrap',
-          margin:'30px auto',
-        }}
-      > 
+      <div className="flex flex-wrap justify-center g"> 
         {firstFive.map((item,idx)=>{
           return(
             <CardItem key={idx} {...item}/>

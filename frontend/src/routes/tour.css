@@ -1,7 +1,6 @@
 .container {
   position: relative;
   text-align: center;
-  margin-left: 1.4%;
 }
 
 .image {
@@ -30,40 +29,6 @@
   height: 100vh;
 }
 
-.search-container {
-  display: flex;
-  align-items: center;
-  border: 2px solid #ccc;
-  padding: 10px;
-  width: 92%;
-  margin-left: 2.2%;
-  border-radius: 6px;
-  margin-top: 9px;
-}
-
-.search-input {
-  padding: 8px;
-  margin-right: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.search-btn {
-  padding: 8px 16px;
-  background-color: #007bff;
-  border: none;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.search-btn:hover {
-  background-color: #0056b3;
-}
-.whole{
-  padding-left: 1.4%;
-}
 .heading{
   margin-top: 9px;
   font-size: 1.6rem;

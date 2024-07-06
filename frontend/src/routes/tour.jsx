@@ -31,7 +31,6 @@ function Tour() {
   return (
     <>
       <Navbar />
-
       <div class="container">       
         <img
           src="https://images.unsplash.com/photo-1623941000342-fd0ccdcbb9c4?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -42,10 +41,10 @@ function Tour() {
       </div>
 
       
-      <div className="search-container">
+      <div className="flex justify-center my-4">
         <input
           type="text"
-          className="search-input"
+          className="border-gray-500 border px-2 mr-3 rounded-lg w-[30%]"
           placeholder="Enter Place Name"
           value={searchText}
           onChange={(e) => {
@@ -54,7 +53,7 @@ function Tour() {
 
         />
         <button
-          className="search-btn"
+          className=" shadow-lg rounded-lg py-3 px-3 bg-blue-400 hover:bg-blue-500"
           onClick={() => {
             const data = filterData(searchText, tourcard);
             console.log(data)
@@ -67,15 +66,7 @@ function Tour() {
       </div>
       
     
-      <div
-        style={{
-          display: "flex",
-          flexWrap:'wrap',
-          margin:'30px auto',
-        }}
-       
-      > 
-      
+      <div className="flex flex-wrap justify-center gap-4"> 
         {tourcard.map((item,idx)=>{
           return(
             <CardItem key={idx} {...item}/>

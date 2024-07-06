@@ -12,17 +12,18 @@ function Plans() {
     useEffect(() => {
         getCards();
     }, []);
+    console.log(tourcard);
     return (
         <>
             <Navbar />
             <div className='mt-28 ml-6'>
-                <p className='text-3xl'>Plans</p>
+                <p className='text-3xl font-semibold'>Plans</p>
                 <div className='flex flex-wrap'>
-                    {tourcard.map((item, idx) => {
+                    {tourcard.length?tourcard.map((item, idx) => {
                         return (
                             <Card key={idx}  {...item} />
                         )
-                    })}
+                    }):<div className='mt-4 text-lg text-gray-400'>No Plan available</div>}
                 </div>
                 
             </div>
